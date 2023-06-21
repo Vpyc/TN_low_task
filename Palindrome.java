@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args) {
-        System.out.println("Введи строку...");
+        System.out.println("Р’РІРµРґРё СЃС‚СЂРѕРєСѓ...");
         Scanner in = new Scanner(System.in);
         String str = in.nextLine();
         boolean f = checkPalindrome(str);
         if (f){
-            System.out.println("Эта строка палиндром");
+            System.out.println("Р­С‚Р° СЃС‚СЂРѕРєР° РїР°Р»РёРЅРґСЂРѕРј");
         }
         else{
-            System.out.println("Эта строка не палиндром");
+            System.out.println("Р­С‚Р° СЃС‚СЂРѕРєР° РЅРµ РїР°Р»РёРЅРґСЂРѕРј");
         }
     }
     public static boolean checkPalindrome(String str){
