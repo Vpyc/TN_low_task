@@ -1,5 +1,6 @@
-import java.util.Arrays;
+package vpyc;
 
+import java.util.Arrays;
 public class NoRepeats {
     public static void main(String[] args) {
         int size = 8;

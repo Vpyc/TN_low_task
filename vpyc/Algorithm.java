@@ -1,3 +1,5 @@
+package vpyc;
+
 public class Algorithm {
     public static int deleteRepeats(int[] arr, int[] newArr, int n) {
         int length = 0;
